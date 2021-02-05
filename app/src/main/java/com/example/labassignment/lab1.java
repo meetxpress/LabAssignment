@@ -18,7 +18,7 @@ public class lab1 extends AppCompatActivity {
         setContentView(R.layout.activity_lab1);
         getSupportActionBar().setDisplayShowCustomEnabled(true);
         TextView ans = (TextView) findViewById(R.id.ans);
-        
+
         findViewById(R.id.btnCalc).setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
