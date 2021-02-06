@@ -22,18 +22,13 @@ public class lab1 extends AppCompatActivity {
         findViewById(R.id.btnCalc).setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                EditText n1=findViewById(R.id.number1);
-                int num1=Integer.parseInt(n1.getText().toString());
+                EditText n1 = findViewById(R.id.number1);
+                int num1 = Integer.parseInt(n1.getText().toString());
 
-                EditText n2=findViewById(R.id.number2);
-                int num2=Integer.parseInt(n2.getText().toString());
-                Log.d("num1", String.valueOf(num1));
-                Log.d("num2", String.valueOf(num2));
-                Log.d("tot", String.valueOf(num1+num2));
-                ans.setText(String.valueOf(num1+num2));
-                //Toast.makeText(getApplicationContext(), String.valueOf(num1+num2), Toast.LENGTH_SHORT).show();
+                EditText n2 = findViewById(R.id.number2);
+                int num2 = Integer.parseInt(n2.getText().toString());
+                ans.setText(String.valueOf(num1 + num2));
             }
         });
-
     }
 }
