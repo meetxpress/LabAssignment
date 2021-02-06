@@ -3,19 +3,17 @@ package com.example.labassignment;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
-import android.text.Editable;
-import android.util.Log;
 import android.view.View;
 import android.widget.EditText;
 import android.widget.TextView;
-import android.widget.Toast;
 
-public class lab1 extends AppCompatActivity {
+public class Q1 extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_lab1);
+        setContentView(R.layout.activity_q1);
+
         getSupportActionBar().setDisplayShowCustomEnabled(true);
         TextView ans = (TextView) findViewById(R.id.ans);
 

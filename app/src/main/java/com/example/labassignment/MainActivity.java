@@ -16,7 +16,7 @@ public class MainActivity extends AppCompatActivity {
         findViewById(R.id.lab1).setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                startActivity(new Intent(getApplicationContext(), lab1.class));
+                startActivity(new Intent(getApplicationContext(), assignment1.class));
             }
         });
     }

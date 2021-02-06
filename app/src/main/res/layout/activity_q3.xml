@@ -4,64 +4,44 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".lab1">
+    tools:context=".Q3">
 
     <EditText
-        android:id="@+id/number1"
+        android:id="@+id/username"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginStart="60px"
         android:layout_marginTop="15dp"
         android:layout_marginEnd="60px"
-        android:hint="Enter First Number"
-        android:inputType="number"
+        android:hint="Enter Username"
+        android:inputType="textPersonName"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
     <EditText
-        android:id="@+id/number2"
+        android:id="@+id/password"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginStart="60px"
         android:layout_marginTop="24dp"
         android:layout_marginEnd="60px"
-        android:hint="Enter Second Number"
-        android:inputType="number"
+        android:hint="Enter Password"
+        android:inputType="textPassword"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/number1" />
+        app:layout_constraintTop_toBottomOf="@id/username" />
 
     <Button
-        android:id="@+id/btnCalc"
+        android:id="@+id/login"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginStart="60px"
         android:layout_marginTop="24dp"
         android:layout_marginEnd="60px"
-        android:text="Calcucate"
+        android:text="Login"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/number2" />
+        app:layout_constraintTop_toBottomOf="@+id/password" />
 
-    <TextView
-        android:id="@+id/label1"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="60px"
-        android:layout_marginTop="24dp"
-        android:text="The Sum of 2 numbers are: "
-        android:textSize="45px"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/btnCalc" />
-
-    <TextView
-        android:id="@+id/ans"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="12dp"
-        android:layout_marginTop="24dp"
-        android:textSize="45px"
-        app:layout_constraintStart_toEndOf="@id/label1"
-        app:layout_constraintTop_toBottomOf="@+id/btnCalc" />
 </androidx.constraintlayout.widget.ConstraintLayout>
