@@ -12,12 +12,17 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+    }
 
-        findViewById(R.id.lab1).setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
+    public void gotoMainActivty(View v) {
+        switch (v.getId()) {
+            case R.id.lab1:
                 startActivity(new Intent(getApplicationContext(), assignment1.class));
-            }
-        });
+                break;
+
+            case R.id.lab2:
+                startActivity(new Intent(getApplicationContext(), assignment2.class));
+                break;
+        }
     }
 }

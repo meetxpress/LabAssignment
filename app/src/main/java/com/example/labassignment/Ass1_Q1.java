@@ -7,12 +7,12 @@ import android.view.View;
 import android.widget.EditText;
 import android.widget.TextView;
 
-public class Q1 extends AppCompatActivity {
+public class Ass1_Q1 extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_q1);
+        setContentView(R.layout.activity_ass1_q1);
 
         getSupportActionBar().setDisplayShowCustomEnabled(true);
         TextView ans = (TextView) findViewById(R.id.ans);

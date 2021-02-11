@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity">
+    tools:context=".assignment2">
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -25,9 +25,10 @@
             android:columnOrderPreserved="false"
             android:rowCount="20">
 
-            <!-- Lab 1-->
+            <!-- Question 1-->
             <androidx.cardview.widget.CardView
-                android:id="@+id/lab1"
+                android:id="@+id/que1"
+                android:onClick="gotoActivity"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_rowWeight="1"
@@ -49,54 +50,17 @@
                         android:layout_height="wrap_content"
                         android:background=""
                         android:gravity="center"
-                        android:onClick="gotoMainActivty"
-                        android:text="Lab assignment 1"
+                        android:text="Question 1"
+                        android:onClick="gotoActivity_ass2"
                         android:textColor="#000000"
                         android:textSize="20sp"
                         android:textStyle="bold"
                         app:layout_constraintBottom_toBottomOf="parent"
                         app:layout_constraintEnd_toEndOf="parent"
                         app:layout_constraintStart_toStartOf="parent"
-                        app:layout_constraintTop_toBottomOf="parent"/>
+                        app:layout_constraintTop_toBottomOf="parent" />
                 </LinearLayout>
             </androidx.cardview.widget.CardView>
-
-            <!-- Lab 2-->
-            <androidx.cardview.widget.CardView
-                android:id="@+id/lab2"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_rowWeight="1"
-                android:layout_columnWeight="1"
-                android:layout_margin="15dp"
-                android:elevation="5dp"
-                app:cardCornerRadius="10dp">
-
-                <LinearLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="match_parent"
-                    android:gravity="center"
-                    android:orientation="vertical"
-                    android:background="#D3D3D3"
-                    android:padding="5dp">
-
-                    <Button
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:background=""
-                    android:gravity="center"
-                    android:onClick="gotoMainActivty"
-                    android:text="Lab assignment 2"
-                    android:textColor="#000000"
-                    android:textSize="20sp"
-                    android:textStyle="bold"
-                    app:layout_constraintBottom_toBottomOf="parent"
-                    app:layout_constraintEnd_toEndOf="parent"
-                    app:layout_constraintStart_toStartOf="parent"
-                    app:layout_constraintTop_toBottomOf="parent"/>
-                </LinearLayout>
-            </androidx.cardview.widget.CardView>
-
 
 
         </GridLayout>

@@ -1,6 +1,5 @@
 package com.example.labassignment;
 
-import androidx.appcompat.app.ActionBar;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
@@ -9,12 +8,12 @@ import android.view.View;
 import android.widget.EditText;
 import android.widget.Toast;
 
-public class Q3 extends AppCompatActivity {
+public class Ass1_Q3 extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_q3);
+        setContentView(R.layout.activity_ass1_q3);
         getSupportActionBar().setDisplayShowCustomEnabled(true);
 
         findViewById(R.id.login).setOnClickListener(new View.OnClickListener() {

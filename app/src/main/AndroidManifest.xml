@@ -10,15 +10,19 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.LabAssignment">
         <activity
-            android:name=".Q3"
-            android:label="Question 3"
-            android:parentActivityName=".assignment1"/>
+            android:name=".assignment2"
+            android:label="Assignment 2"
+            android:parentActivityName=".MainActivity" />
         <activity
-            android:name=".Q2"
+            android:name=".Ass1_Q3"
+            android:label="Question 3"
+            android:parentActivityName=".assignment1" />
+        <activity
+            android:name=".Ass1_Q2"
             android:label="Question 2"
             android:parentActivityName=".assignment1" />
         <activity
-            android:name=".Q1"
+            android:name=".Ass1_Q1"
             android:label="Question 1"
             android:parentActivityName=".assignment1" />
         <activity
