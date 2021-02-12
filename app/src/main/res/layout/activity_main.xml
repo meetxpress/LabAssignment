@@ -13,92 +13,68 @@
 
         <androidx.constraintlayout.widget.ConstraintLayout
             android:layout_width="match_parent"
-            android:layout_height="match_parent">
-        </androidx.constraintlayout.widget.ConstraintLayout>
+            android:layout_height="match_parent"></androidx.constraintlayout.widget.ConstraintLayout>
 
-        <GridLayout
+        <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:alignmentMode="alignMargins"
-            android:columnCount="1"
-            android:layout_marginTop="50px"
-            android:columnOrderPreserved="false"
-            android:rowCount="20">
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:orientation="vertical">
 
-            <!-- Lab 1-->
-            <androidx.cardview.widget.CardView
-                android:id="@+id/lab1"
-                android:layout_width="wrap_content"
+            <!-- Question 1-->
+            <Button
+                android:id="@+id/btnque1"
+                android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_rowWeight="1"
-                android:layout_columnWeight="1"
-                android:layout_margin="15dp"
-                android:elevation="5dp"
-                app:cardCornerRadius="10dp">
+                android:background="#d3d3d3"
+                android:onClick="gotoActivity_ass1"
+                android:gravity="center"
+                android:text="Question 1"
+                android:layout_margin="30px"
+                android:textColor="#000000"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="parent" />
 
-                <LinearLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="match_parent"
-                    android:gravity="center"
-                    android:orientation="vertical"
-                    android:background="#D3D3D3"
-                    android:padding="5dp">
-
-                    <Button
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:background=""
-                        android:gravity="center"
-                        android:onClick="gotoMainActivty"
-                        android:text="Lab assignment 1"
-                        android:textColor="#000000"
-                        android:textSize="20sp"
-                        android:textStyle="bold"
-                        app:layout_constraintBottom_toBottomOf="parent"
-                        app:layout_constraintEnd_toEndOf="parent"
-                        app:layout_constraintStart_toStartOf="parent"
-                        app:layout_constraintTop_toBottomOf="parent"/>
-                </LinearLayout>
-            </androidx.cardview.widget.CardView>
-
-            <!-- Lab 2-->
-            <androidx.cardview.widget.CardView
-                android:id="@+id/lab2"
-                android:layout_width="wrap_content"
+            <!-- Question 2-->
+            <Button
+                android:id="@+id/btnque2"
+                android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_rowWeight="1"
-                android:layout_columnWeight="1"
-                android:layout_margin="15dp"
-                android:elevation="5dp"
-                app:cardCornerRadius="10dp">
+                android:background="#d3d3d3"
+                android:onClick="gotoActivity_ass1"
+                android:gravity="center"
+                android:text="Question 2"
+                android:textColor="#000000"
+                android:layout_margin="30px"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="parent" />
 
-                <LinearLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="match_parent"
-                    android:gravity="center"
-                    android:orientation="vertical"
-                    android:background="#D3D3D3"
-                    android:padding="5dp">
+            <!-- Question 3-->
+            <Button
+                android:id="@+id/btnque3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#d3d3d3"
+                android:onClick="gotoActivity_ass1"
+                android:gravity="center"
+                android:layout_margin="30px"
+                android:text="Question 3"
+                android:textColor="#000000"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="parent" />
 
-                    <Button
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:background=""
-                    android:gravity="center"
-                    android:onClick="gotoMainActivty"
-                    android:text="Lab assignment 2"
-                    android:textColor="#000000"
-                    android:textSize="20sp"
-                    android:textStyle="bold"
-                    app:layout_constraintBottom_toBottomOf="parent"
-                    app:layout_constraintEnd_toEndOf="parent"
-                    app:layout_constraintStart_toStartOf="parent"
-                    app:layout_constraintTop_toBottomOf="parent"/>
-                </LinearLayout>
-            </androidx.cardview.widget.CardView>
-
-
-
-        </GridLayout>
+        </LinearLayout>
     </LinearLayout>
 </ScrollView>

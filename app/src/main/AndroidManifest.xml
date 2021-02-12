@@ -10,28 +10,16 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.LabAssignment">
         <activity
-            android:name=".Ass2_Q1"
-            android:label="A2 Question 1"
-            android:parentActivityName=".assignment2" />
-        <activity
-            android:name=".assignment2"
-            android:label="Assignment 2"
-            android:parentActivityName=".MainActivity" />
-        <activity
             android:name=".Ass1_Q3"
             android:label="A1 Question 3"
-            android:parentActivityName=".assignment1" />
+            android:parentActivityName=".MainActivity" />
         <activity
             android:name=".Ass1_Q2"
             android:label="A1 Question 2"
-            android:parentActivityName=".assignment1" />
+            android:parentActivityName=".MainActivity" />
         <activity
             android:name=".Ass1_Q1"
             android:label="A1 Question 1"
-            android:parentActivityName=".assignment1" />
-        <activity
-            android:name=".assignment1"
-            android:label="Assignment 1"
             android:parentActivityName=".MainActivity" />
         <activity android:name=".MainActivity">
             <intent-filter>
