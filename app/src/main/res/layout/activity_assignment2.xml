@@ -28,7 +28,7 @@
             <!-- Question 1-->
             <androidx.cardview.widget.CardView
                 android:id="@+id/que1"
-                android:onClick="gotoActivity"
+                android:onClick="gotoActivity_ass2"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_rowWeight="1"

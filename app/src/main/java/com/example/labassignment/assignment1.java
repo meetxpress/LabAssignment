@@ -36,7 +36,7 @@ public class assignment1 extends AppCompatActivity {
         });*/
     }
 
-    public void gotoActivity(View v) {
+    public void gotoActivity_ass1(View v) {
         switch (v.getId()) {
             case R.id.que1:
                 startActivity(new Intent(getApplicationContext(), Ass1_Q1.class));

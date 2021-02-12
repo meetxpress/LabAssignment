@@ -15,6 +15,7 @@ public class assignment2 extends AppCompatActivity {
         setContentView(R.layout.activity_assignment2);
         getSupportActionBar().setDisplayShowCustomEnabled(true);
     }
+
     public void gotoActivity_ass2(View v) {
         switch (v.getId()) {
             case R.id.que1:
@@ -32,8 +33,5 @@ public class assignment2 extends AppCompatActivity {
 
             default:
         }
-    }
-    public void raise(){
-        Toast.makeText(getApplicationContext(), "Button 1", Toast.LENGTH_SHORT).show();
     }
 }
